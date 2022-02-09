@@ -22,8 +22,6 @@ Route::resource('StockPrice', 'App\Http\Controllers\StockPriceController');
 /* 實驗基本資料 */
 Route::resource('Experiment', 'App\Http\Controllers\ExperimentController');
 
-Route::post('ExperimentalreadyExists', 'App\Http\Controllers\ExperimentController@alreadyExists');
-
 /* 基因演算法參數 */
 Route::resource('GAParams', 'App\Http\Controllers\GAParamsController');
 
